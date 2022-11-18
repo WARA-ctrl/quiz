@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@300&family=Varela+Round&display=swap");
+* {
+  font-family: "Varela Round", sans-serif;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.menu,
+.quiz,
+.score {
+  width: 500px;
+  height: 500px;
+  background: lightgreen;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu button,
+.quiz button,
+.score button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: green;
+  color: beige;
+}
